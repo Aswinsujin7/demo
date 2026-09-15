@@ -1,9 +1,8 @@
-
 :root {
-    --background-color:#211579;
+    --background-color: #211579;
     --text-color: #ffffff;
 
-    --main-title-size: 70px;
+    --main-title-size: 52px;
     --inner-title-size: 36px;
     --body-text-size: 18px;
 
@@ -12,18 +11,6 @@
 
     --section-padding: 40px;
     --container-padding: 110px;
-}
-
-h1 {
-    font-size: var(--main-title-size);
-}
-
-h2 {
-    font-size: var(--inner-title-size);
-}
-
-p {
-    font-size: var(--body-text-size);
 }
 
 * {
@@ -57,7 +44,6 @@ p {
     align-items: flex-start;
     gap: 40px;
 }
-
 
 .tile {
     width: 33.33%;
@@ -98,6 +84,7 @@ p {
     font-weight: var(--font-weight);
     line-height: 1.4;
 }
+
 @media (max-width: 768px) {
 
     .sales-section {
